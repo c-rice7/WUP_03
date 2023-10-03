@@ -47,6 +47,8 @@ The median and quartile ranges for both front and middle seats were extremely cl
 favstats(alcohol~Seat,data=davisdata)
 ```
 
+The middle row(s) had the largest sample size but had a significantly lower average amount of alcohol consumed than the back row and slightly higher than those in the front seats. The back row seats had by far the highest average alcohol consumption, the middle seats about one third the mean of the back row seats, and the front row seats about one half the mean of the middle row seats indicating a trend of increase in alcohol consumption the further back the subjects sat.
+
 ## Inferential Tests
 
 ## Conclusions
