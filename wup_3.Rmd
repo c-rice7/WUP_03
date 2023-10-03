@@ -62,6 +62,8 @@ The low p-value despite high levels of similarity between two of the data types 
 plot(TukeyHSD(model1))
 ```
 
+The middle and front seat data sets are too similar as indicated by their confidence interval intersecting with the 0 line. Both the middle-row/back-row and front-row/back-row are significantly different from one another as indicated by their confidence interval falling entirely into the negative range.
+
 ## Conclusions
 
 
