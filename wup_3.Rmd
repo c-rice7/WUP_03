@@ -43,6 +43,10 @@ The median and quartile ranges for both front and middle seats were extremely cl
 
 ## Numerical Summarys 
 
+```{r}
+favstats(alcohol~Seat,data=davisdata)
+```
+
 ## Inferential Tests
 
 ## Conclusions
