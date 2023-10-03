@@ -1,7 +1,7 @@
 ---
 title: "Alcohol vs Seat choice"
-author: "Your Name"
-date: "Fall 2020"
+author: "Connor Rice"
+date: "Fall 2023"
 output: html_document
 ---
 
@@ -16,6 +16,10 @@ davisdata <- read.csv(file="UCDavis.csv")
 ```
 ## Our Goal is to answer this question Is there a difference between the alcohol consumed between the row
 ## you choose to sit in??
+
+$H_0$: There is no difference between the average number of drinks imbibed between people conditioned on the row they sit in.
+
+$H_A$: The average number drinks is different between at least two rows. 
 
 ## Now with ggplot - first select the basic data
 
@@ -34,6 +38,8 @@ basicCN + geom_boxplot()
 ```{r}
 basicCN + geom_boxplot(notch=TRUE,outlier.color = "red") + stat_boxplot(geom ='errorbar') + labs(title="Fancy notch boxplot \n with 2 lines")
 ```
+
+The median and quartile ranges for both front and middle seats were extremely close to one another, however the median and quartile ranges for people in back seats were significantly higher than those sitting in the front or middle seats. This indicates a higher average consumption of alcohol by those in the back seats, though all the seat types had large outliers beyond their quartile ranges.
 
 ## Numerical Summarys 
 
