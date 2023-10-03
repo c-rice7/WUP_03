@@ -58,6 +58,10 @@ summary.aov(model1)
 
 The low p-value despite high levels of similarity between two of the data types indicates an issue in the data, necessitating further statistical testing with a tukey test.
 
+```{r}
+plot(TukeyHSD(model1))
+```
+
 ## Conclusions
 
 
