@@ -17,7 +17,7 @@ davisdata <- read.csv(file="UCDavis.csv")
 ## Our Goal is to answer this question Is there a difference between the alcohol consumed between the row
 ## you choose to sit in??
 
-The data will be analysed by use of code blocks from the Numerical~Cat helper file.
+The data will be analysed by use of code blocks from the Numerical~Cat helper file that have been edited to work for the data with the help of chatgpt.
 
 $H_0$: There is no difference between the average number of drinks imbibed between people conditioned on the row they sit in.
 
