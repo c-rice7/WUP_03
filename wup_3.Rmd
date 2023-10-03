@@ -66,4 +66,4 @@ The middle and front seat data sets are too similar as indicated by their confid
 
 ## Conclusions
 
-There is a significantly larger amount of alcohol consumption by those in the back rows of seats, however the data of those in the front and middle seats is too similar, as determined by a tukey test, to conclusively determine an overall trend in the data based on seat position. As such the only thing that can be conclusively determined is that those the back rows consume more alcohol than those in the middle or front rows.
+There is a significantly larger amount of alcohol consumption by those in the back rows of seats, however the data of those in the front and middle seats is too similar, as determined by a tukey test, to conclusively determine an overall trend in the data based on seat position and thus they fall under the null-hypothesis. As such the only thing that can be conclusively determined is that those the back rows consume more alcohol than those in the middle or front rows and as such the null-hypothesis can be rejected for those in the back rows.
