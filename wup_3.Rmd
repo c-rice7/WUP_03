@@ -51,6 +51,13 @@ The middle row(s) had the largest sample size but had a significantly lower aver
 
 ## Inferential Tests
 
+```{r}
+model1 <- aov(alcohol~Seat,data=davisdata)
+summary.aov(model1)
+```
+
+The low p-value despite high levels of similarity between two of the data types indicates an issue in the data, necessitating further statistical testing with a tukey test.
+
 ## Conclusions
 
 
